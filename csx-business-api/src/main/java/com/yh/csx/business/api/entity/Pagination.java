@@ -1,6 +1,6 @@
-package com.yh.csx.bsf.business.api.entity;
+package com.yh.csx.business.api.entity;
 
-import com.yh.csx.bsf.business.api.exception.BusinessException;
+import com.yh.csx.business.api.exception.BusinessException;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.yh.csx.bsf.business.api.model;
+package com.yh.csx.business.api.model;
 
 import lombok.Data;
 

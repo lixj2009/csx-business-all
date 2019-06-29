@@ -1,7 +1,7 @@
-package com.yh.csx.bsf.business.api.entity;
+package com.yh.csx.business.api.entity;
 
-import com.yh.csx.bsf.business.api.enums.BizError;
-import com.yh.csx.bsf.business.api.exception.BusinessException;
+import com.yh.csx.business.api.enums.BizError;
+import com.yh.csx.business.api.exception.BusinessException;
 
 /**
  * 常见返回response定义

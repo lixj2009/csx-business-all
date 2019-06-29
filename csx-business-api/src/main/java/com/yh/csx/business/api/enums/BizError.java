@@ -1,4 +1,4 @@
-package com.yh.csx.bsf.business.api.enums;
+package com.yh.csx.business.api.enums;
 
 /**
  * 常规业务错误枚举

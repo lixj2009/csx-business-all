@@ -1,6 +1,6 @@
-package com.yh.csx.bsf.business.core.aspect;
+package com.yh.csx.business.core.aspect;
 
-import com.yh.csx.bsf.business.api.entity.CommonResponse;
+import com.yh.csx.business.api.entity.CommonResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

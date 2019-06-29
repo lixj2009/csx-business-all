@@ -1,6 +1,6 @@
-package com.yh.csx.bsf.business.api.exception;
+package com.yh.csx.business.api.exception;
 
-import com.yh.csx.bsf.business.api.enums.BizError;
+import com.yh.csx.business.api.enums.BizError;
 
 /**
  * 业务错误定义

@@ -26,6 +26,7 @@
     </properties>
     <dependencyManagement>
         <dependencies>
+            <!--依赖添加-->
             <dependency>
                 <groupId>com.yh.csx.business</groupId>
                 <artifactId>csx-business-dependencies</artifactId>

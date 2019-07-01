@@ -11,6 +11,11 @@ csx-business-all
 ```
 
 ## 相关文档
+* csx-business-api
+   api常用协议的定义,里面不能包含其他的包和复杂的逻辑内容,必须保持精简。
+* csx-business-core 
+   里面的包含对业务的公共抽象类库,以及常用的工具类。
+
 
 ## 编译说明
 1. mvn install csx-business-dependencies

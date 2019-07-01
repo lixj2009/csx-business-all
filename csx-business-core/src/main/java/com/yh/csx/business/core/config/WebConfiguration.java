@@ -1,7 +1,7 @@
 package com.yh.csx.business.core.config;
 
+import com.yh.csx.bsf.core.serialize.JsonSerializer;
 import com.yh.csx.business.core.aspect.WebErrorAspect;
-import com.yh.csx.bsf.business.serialize.JsonSerializer;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,7 @@
 package com.yh.csx.business.core.util;
 
 import com.alibaba.fastjson.JSON;
-import com.yh.csx.bsf.business.base.BsfException;
+import com.yh.csx.bsf.core.base.BsfException;
 import org.apache.commons.beanutils.PropertyUtils;
 
 import java.beans.PropertyDescriptor;

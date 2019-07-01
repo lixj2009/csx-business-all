@@ -1,6 +1,6 @@
 package com.yh.csx.business.core.util;
 
-import com.yh.csx.bsf.business.base.BsfException;
+import com.yh.csx.bsf.core.base.BsfException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

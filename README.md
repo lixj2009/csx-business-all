@@ -8,6 +8,7 @@ csx-business-all
     -- csx-business-core (业务公共的核心层)
     -- csx-business-dependencies (项目依赖pom定义)
     -- csx-business-starter （项目full-start包）
+    -- csx-business-extend （专门为供应链项目做的扩展包,注意: 其他项目不能使用）
 ```
 
 ## 相关文档

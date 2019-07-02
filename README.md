@@ -15,6 +15,8 @@ csx-business-all
    api常用协议的定义,里面不能包含其他的包和复杂的逻辑内容,必须保持精简。
 * csx-business-core 
    里面的包含对业务的公共抽象类库,以及常用的工具类。
+* csx-business-extend
+   里面包含对业务的扩展包，仅为供应链项目的扩展兼容支持【其他项目不能使用】
 * business公共业务组件集成文档(包含api和core内核,默认已集成并关闭)
    http://10.252.192.10:8080/webdoc/view/Pubff8080816aff1991016baca03d227951.html
 

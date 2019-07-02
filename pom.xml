@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <artifactId>csx-bsf-all</artifactId>
+    <artifactId>csx-business-all</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>csx-business-api</module>
@@ -19,6 +19,7 @@
         <module>csx-business-dependencies</module>
         <module>csx-business-demo</module>
         <module>csx-business-starter</module>
+        <module>csx-business-extend</module>
     </modules>
 
     <properties>
@@ -26,14 +27,6 @@
     </properties>
     <dependencyManagement>
         <dependencies>
-            <!--依赖添加-->
-            <dependency>
-                <groupId>com.yh.csx.business</groupId>
-                <artifactId>csx-business-dependencies</artifactId>
-                <version>${project.parent.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>com.yh.csx.bsf</groupId>
                 <artifactId>csx-bsf-starter</artifactId>

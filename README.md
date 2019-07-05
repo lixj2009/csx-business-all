@@ -27,7 +27,7 @@ csx-business-all
 
 ## 版本升级/切换
 ```
-备注: 格式:1.0.0-RELEASE (版本号+-+RELEASE/SNAPSHOT)
+版本号规则: bsf的版本号 + 业务版本号  (版本号+-+RELEASE/SNAPSHOT)
 cd csx-business-dependencies
 mvn versions:set -DgenerateBackupPoms=false
 或

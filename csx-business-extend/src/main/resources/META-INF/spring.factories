@@ -1,2 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yh.csx.bsf.datasource.MyBatisPlusAutoConfiguration
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#com.yh.csx.bsf.datasource.MyBatisPlusAutoConfiguration

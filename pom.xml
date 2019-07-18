@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.yh.csx.business</groupId>
         <artifactId>csx-business-dependencies</artifactId>
-        <version>1.5.5.2-SNAPSHOT</version>
+        <version>1.5.6.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
 
@@ -23,7 +23,7 @@
     </modules>
 
     <properties>
-        <bsf.version>1.5.5-SNAPSHOT</bsf.version>
+        <bsf.version>1.5.6-SNAPSHOT</bsf.version>
     </properties>
     <dependencyManagement>
         <dependencies>

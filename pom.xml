@@ -22,9 +22,6 @@
         <module>csx-business-extend</module>
     </modules>
 
-    <properties>
-        <bsf.version>1.5.6-SNAPSHOT</bsf.version>
-    </properties>
     <dependencyManagement>
         <dependencies>
             <dependency>

@@ -16,7 +16,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <bsf.version>1.5.5-SNAPSHOT</bsf.version>
+        <bsf.version>1.5.6-SNAPSHOT</bsf.version>
         <elasticsearch.version>6.7.1</elasticsearch.version>
         <jedis.version>3.0.1</jedis.version>
     </properties>

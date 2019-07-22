@@ -178,18 +178,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.yh.csx.bsf</groupId>
-            <artifactId>csx-bsf-starter-apollo</artifactId>
-            <version>1.6.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.yh.csx.bsf</groupId>
-            <artifactId>csx-bsf-starter-job</artifactId>
-            <version>1.6.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>

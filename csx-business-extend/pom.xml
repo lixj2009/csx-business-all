@@ -20,6 +20,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>easyexcel</artifactId>
+                <version>1.1.2-beta5</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
@@ -174,6 +175,18 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yh.csx.bsf</groupId>
+            <artifactId>csx-bsf-starter-apollo</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yh.csx.bsf</groupId>
+            <artifactId>csx-bsf-starter-job</artifactId>
+            <version>1.6.1</version>
         </dependency>
 
         <dependency>

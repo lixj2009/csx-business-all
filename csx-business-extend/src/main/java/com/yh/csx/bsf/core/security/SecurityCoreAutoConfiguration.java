@@ -13,7 +13,7 @@ import javax.servlet.Filter;
 /**
  * Created by yanglikai on 2019/4/16.
  */
-@Configuration
+//@Configuration
 public class SecurityCoreAutoConfiguration {
 
   @Bean

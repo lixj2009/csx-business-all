@@ -3,7 +3,6 @@ package com.yh.csx.bsf.core.security;
 import com.yh.csx.bsf.core.security.filter.TokenAuthenticationFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
@@ -13,7 +12,6 @@ import javax.servlet.Filter;
 /**
  * Created by yanglikai on 2019/4/16.
  */
-//@Configuration
 public class SecurityCoreAutoConfiguration {
 
   @Bean

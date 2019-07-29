@@ -1,6 +1,7 @@
 package com.yh.csx.business.core.config;
 
 import com.yh.csx.bsf.core.serialize.JsonSerializer;
+import com.yh.csx.bsf.core.util.PropertyUtils;
 import com.yh.csx.business.core.aspect.WebErrorAspect;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
@@ -9,6 +10,9 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
+
+import java.text.SimpleDateFormat;
+import java.util.TimeZone;
 
 /**
  * @author Huang Zhaoping
@@ -41,7 +45,9 @@ public class WebConfiguration {
     @Bean
     @ConditionalOnProperty(name = "bsf.web.serialize.enabled", havingValue = "true")
     public MappingJackson2HttpMessageConverter mappingJackson2HttpMessageConverter(){
-        return new MappingJackson2HttpMessageConverter(JsonSerializer.getObjectMapper());
+        return new MappingJackson2HttpMessageConverter(JsonSerializer.getObjectMapper()
+                .setTimeZone(TimeZone.getTimeZone(PropertyUtils.getSystemProperty("spring.jackson.time-zone","GMT+8")))
+                .setDateFormat(new SimpleDateFormat(PropertyUtils.getSystemProperty("spring.jackson.date-format","yyyy-MM-dd HH:mm:ss"))));
     }
 
 }

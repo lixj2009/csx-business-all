@@ -68,7 +68,8 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo</artifactId>
-                <version>2.5.7</version>
+                <version>yh2.5.7</version>
+                <type>pom</type>
                 <exclusions>
                     <exclusion>
                         <groupId>org.springframework</groupId>

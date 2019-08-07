@@ -12,11 +12,11 @@
 
     <groupId>com.yh.csx.business</groupId>
     <artifactId>csx-business-dependencies</artifactId>
-    <version>1.5.6.1-SNAPSHOT</version>
+    <version>1.5.7.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
-        <bsf.version>1.5.6-SNAPSHOT</bsf.version>
+        <bsf.version>1.5.7-SNAPSHOT</bsf.version>
         <elasticsearch.version>6.7.1</elasticsearch.version>
         <jedis.version>3.0.1</jedis.version>
     </properties>

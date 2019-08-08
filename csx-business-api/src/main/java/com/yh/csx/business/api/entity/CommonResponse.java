@@ -7,10 +7,10 @@ import com.yh.csx.business.api.exception.BusinessException;
  * 常见返回response定义
  */
 public class CommonResponse<T> {
-    private static int SUCCESS = BizError.SUCCESS.getCode();
-    private static int ERROR = BizError.SYSTEM_ERROR.getCode();
-    private static String SUCCESS_MSG = "success";
-    private static String ERROR_MSG = "system error";
+    public static int SUCCESS = BizError.SUCCESS.getCode();
+    public static int ERROR = BizError.SYSTEM_ERROR.getCode();
+    public static String SUCCESS_MSG = "success";
+    public static String ERROR_MSG = "system error";
     
     public CommonResponse() {
 		super();
@@ -57,9 +57,9 @@ public class CommonResponse<T> {
         }
     }
 
-    private int code;
-    private String message;
-    private T data;
+    protected int code;
+    protected String message;
+    protected T data;
 
     public CommonResponse(int code, String message, T data) {
         this.code = code;
